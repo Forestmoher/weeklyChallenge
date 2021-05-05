@@ -16,6 +16,8 @@ console.log(createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]))
 console.log(createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9]))
 console.log(createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 
+
+
 // Challenge 2
 // You will be given a sequence of objects representing data about developers including their name, 
 // where they are from, their preferred coding language, and their age. Your task is to return the oldest developer(s).
@@ -38,6 +40,11 @@ var list = [
 //   { firstName: 'Saul', lastName: 'B.', country: 'Japan', age: 49, language: 'JavaScript' },
 //   { firstName: 'Betty', lastName: 'W.', country: 'United States', age: 49, language: 'Java' }   
 // ]
+
+//loop through list/objects to gather ages
+//parse age array to find greatest number
+//if age of object matches max age, push into resulting array
+//return array 
 
 function findSenior(list) {
   var age = [];
